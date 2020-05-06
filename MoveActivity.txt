@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_daftar"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoveActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hospital"
+        android:id="@+id/gambar_daftar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar_daftar"
+        android:text="DAFTAR RUMAH SAKIT RUJUKAN"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:id="@+id/daftar_RS" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/daftar_RS"
+        android:id="@+id/A1"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="RUMAH SAKIT PERMATA KELUARGA"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Lippo Cikarang, Jl. MH. Thamrin No.Kav.129, Cibatu, Cikarang Sel., Bekasi, Jawa Barat" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A1"
+        android:id="@+id/A2"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="RUMAH SAKIT MITRA KELUARGA CIKARANG"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. Raya Industri No.100, Mekarmukti, Kec. Cikarang Utara, Bekasi, Jawa Barat" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A2"
+        android:id="@+id/A3"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="RUMAH SAKIT MEDIROSSA HOSPITAL CIKARANG"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="@string/jalan_raya_industri_tegal_gede_no_09_pasirsari_cikarang_selatan_pasirsari_cikarang_sel_bekasi_jawa_barat" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

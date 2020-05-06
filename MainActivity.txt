@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/utama"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gambar"
+        android:src="@drawable/hospital" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:text="RUMAH SAKIT COVID-19"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:id="@+id/rumah_sakit"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rumah_sakit"
+        android:padding="10dp"
+        android:text="1. Daftar Rumah Sakit"
+        android:gravity=""
+        android:textSize="15dp"
+        android:id="@+id/btn_daftar"
+        android:background="@color/colorAccent"
+        android:onClick="daftar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@id/btn_daftar"
+        android:gravity=""
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:background="@color/colorAccent"
+        android:text="2. Info perkembangan covid-19"
+        android:id="@+id/info"
+        android:onClick="info"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:gravity=""
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:text="3. Langkah Pencegahan"
+        android:id="@+id/langkah"
+        android:onClick="langkah"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/langkah"
+        android:padding="10dp"
+        android:gravity=""
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:textSize="15dp"
+        android:text="4. Dokter"
+        android:onClick="dokter"/>
+
+</RelativeLayout>
